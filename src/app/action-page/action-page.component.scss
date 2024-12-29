@@ -1,0 +1,136 @@
+.congratulation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eafaf1;
+  }
+  
+  .congratulation-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    color: #155724;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .congratulation-message {
+    color: #28a745;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .enjoy-text {
+    color: #6c757d;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  /* Onboarding Link */
+  .onboard-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .onboard-link:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .rejection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fbecec;
+  }
+  
+  .rejection-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    color: #721c24;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .rejection-message {
+    color: #dc3545;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .sorry-text {
+    color: #6c757d;
+    font-size: 16px;
+  }
+  
+
+  .oops-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff3cd;
+  }
+  
+  .oops-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    color: #856404;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .oops-message {
+    color: #856404;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .error-detail {
+    color: #856404;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .back-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .back-link:hover {
+    color: #0056b3;
+  }
+  
