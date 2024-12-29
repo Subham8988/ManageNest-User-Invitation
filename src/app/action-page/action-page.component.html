@@ -1,35 +1,34 @@
 @if (id==1) {
 
 <div class="congratulation-container">
-    <div class="congratulation-card">
-      <h1>🎉 Congratulations!</h1>
-      <p class="congratulation-message">You have successfully accepted the invitation.</p>
-      <p class="enjoy-text">We are excited to have you onboard!</p>
-      
-      <!-- Onboarding Link to Main Application -->
-      <a class="onboard-link" href="https://app.yourdomain.com/onboarding" target="_blank">Start Onboarding</a>
-    </div>
-  </div>}
-  
+  <div class="congratulation-card">
+    <h1>🎉 Congratulations!</h1>
+    <p class="congratulation-message">You have successfully accepted the invitation.</p>
+    <p class="enjoy-text">We are excited to have you onboard!</p>
 
-  @if (id==2) {
-  <div class="rejection-container">
-    <div class="rejection-card">
-      <h1>❌ Invitation Rejected</h1>
-      <p class="rejection-message">You have chosen to reject the invitation.</p>
-      <p class="sorry-text">We are sorry to see you go. If this was a mistake, you can contact us to receive another invitation.</p>
-    </div>
-  </div>}
-
-  @if (id==3) {
-  <div class="oops-container">
-    <div class="oops-card">
-      <h1>⚠️ Oops!</h1>
-      <p class="oops-message">Something went wrong.</p>
-      <p class="error-detail">It seems the link is broken or tampered with.</p>
-      <a class="back-link" href="/">Go Back to Home</a>
-    </div>
+    <!-- Onboarding Link to Main Application -->
+    <a class="onboard-link" href="https://app.yourdomain.com/onboarding" target="_blank">Start Onboarding</a>
   </div>
+</div>}
+
+
+@if (id==2) {
+<div class="rejection-container">
+  <div class="rejection-card">
+    <h1>❌ Invitation Rejected</h1>
+    <p class="rejection-message">You have chosen to reject the invitation.</p>
+    <p class="sorry-text">We are sorry to see you go. If this was a mistake, you can contact us to receive another
+      invitation.</p>
+  </div>
+</div>}
+
+@if (id==3) {
+<div class="oops-container">
+  <div class="oops-card">
+    <h1>⚠️ Oops!</h1>
+    <p class="oops-message">Something went wrong.</p>
+    <p class="error-detail">It seems the link is broken or tampered with.</p>
+    <a class="back-link" href="/">Go Back to Home</a>
+  </div>
+</div>
 }
-  
-  
